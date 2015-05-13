@@ -1,0 +1,14 @@
+C:\Documents and Settings\NotebookCompaq\My Documents\Dropbox\Xadux\Web\XaduxAdmin\bin\XaduxAdmin.dll
+C:\Documents and Settings\NotebookCompaq\My Documents\Dropbox\Xadux\Web\XaduxAdmin\bin\XaduxAdmin.pdb
+C:\Documents and Settings\NotebookCompaq\My Documents\Dropbox\Xadux\Web\XaduxAdmin\bin\XaduxClassLibrary.dll
+C:\Documents and Settings\NotebookCompaq\My Documents\Dropbox\Xadux\Web\XaduxAdmin\bin\XaduxClassLibrary.pdb
+C:\Documents and Settings\NotebookCompaq\My Documents\Dropbox\Xadux\Web\XaduxAdmin\obj\DaniloBSi-PC\ResolveAssemblyReference.cache
+C:\Documents and Settings\NotebookCompaq\My Documents\Dropbox\Xadux\Web\XaduxAdmin\obj\DaniloBSi-PC\XaduxAdmin.dll
+C:\Documents and Settings\NotebookCompaq\My Documents\Dropbox\Xadux\Web\XaduxAdmin\obj\DaniloBSi-PC\XaduxAdmin.pdb
+C:\Users\DaniloBSi\Dropbox\Projects\Xadux\Web\XaduxAdmin\bin\XaduxAdmin.dll
+C:\Users\DaniloBSi\Dropbox\Projects\Xadux\Web\XaduxAdmin\bin\XaduxAdmin.pdb
+C:\Users\DaniloBSi\Dropbox\Projects\Xadux\Web\XaduxAdmin\bin\XaduxClassLibrary.dll
+C:\Users\DaniloBSi\Dropbox\Projects\Xadux\Web\XaduxAdmin\bin\XaduxClassLibrary.pdb
+C:\Users\DaniloBSi\Dropbox\Projects\Xadux\Web\XaduxAdmin\obj\DaniloBSi-PC\ResolveAssemblyReference.cache
+C:\Users\DaniloBSi\Dropbox\Projects\Xadux\Web\XaduxAdmin\obj\DaniloBSi-PC\XaduxAdmin.dll
+C:\Users\DaniloBSi\Dropbox\Projects\Xadux\Web\XaduxAdmin\obj\DaniloBSi-PC\XaduxAdmin.pdb

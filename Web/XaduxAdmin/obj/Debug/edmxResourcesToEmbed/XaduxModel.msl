@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="xaduxModelStoreContainer" CdmEntityContainer="xaduxEntities">
+    <EntitySetMapping Name="Banda">
+      <EntityTypeMapping TypeName="xaduxModel.Banda">
+        <MappingFragment StoreEntitySet="Banda">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+          <ScalarProperty Name="fk_Empresa_Id_Gravadora" ColumnName="fk_Empresa_Id_Gravadora" />
+          <ScalarProperty Name="Site" ColumnName="Site" />
+          <ScalarProperty Name="Facebook" ColumnName="Facebook" />
+          <ScalarProperty Name="Twitter" ColumnName="Twitter" />
+          <ScalarProperty Name="fk_Usuario_Id_Cadastro" ColumnName="fk_Usuario_Id_Cadastro" />
+          <ScalarProperty Name="DataCadastro" ColumnName="DataCadastro" />
+          <ScalarProperty Name="fk_EstiloMusical_Id" ColumnName="fk_EstiloMusical_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Empresa">
+      <EntityTypeMapping TypeName="xaduxModel.Empresa">
+        <MappingFragment StoreEntitySet="Empresa">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Endereco" ColumnName="Endereco" />
+          <ScalarProperty Name="EnderecoNumero" ColumnName="EnderecoNumero" />
+          <ScalarProperty Name="CEP" ColumnName="CEP" />
+          <ScalarProperty Name="Bairro" ColumnName="Bairro" />
+          <ScalarProperty Name="Cidade" ColumnName="Cidade" />
+          <ScalarProperty Name="fk_Estado_Id" ColumnName="fk_Estado_Id" />
+          <ScalarProperty Name="fk_Pais_Id" ColumnName="fk_Pais_Id" />
+          <ScalarProperty Name="Site" ColumnName="Site" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="fk_Usuario_Id_Responsavel" ColumnName="fk_Usuario_Id_Responsavel" />
+          <ScalarProperty Name="TelefoneContato" ColumnName="TelefoneContato" />
+          <ScalarProperty Name="fk_TipoEmpresa_Id" ColumnName="fk_TipoEmpresa_Id" />
+          <ScalarProperty Name="Ativa" ColumnName="Ativa" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Estado">
+      <EntityTypeMapping TypeName="xaduxModel.Estado">
+        <MappingFragment StoreEntitySet="Estado">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Sigla" ColumnName="Sigla" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EstiloMusical">
+      <EntityTypeMapping TypeName="xaduxModel.EstiloMusical">
+        <MappingFragment StoreEntitySet="EstiloMusical">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Evento">
+      <EntityTypeMapping TypeName="xaduxModel.Evento">
+        <MappingFragment StoreEntitySet="Evento">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="fk_Empresa_Id_CasaShow" ColumnName="fk_Empresa_Id_CasaShow" />
+          <ScalarProperty Name="Horario" ColumnName="Horario" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+          <ScalarProperty Name="Preco" ColumnName="Preco" />
+          <ScalarProperty Name="Site" ColumnName="Site" />
+          <ScalarProperty Name="fk_Usuario_Id_Cadastro" ColumnName="fk_Usuario_Id_Cadastro" />
+          <ScalarProperty Name="DataCadastro" ColumnName="DataCadastro" />
+          <ScalarProperty Name="fk_Banda_Id" ColumnName="fk_Banda_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FotoBanda">
+      <EntityTypeMapping TypeName="xaduxModel.FotoBanda">
+        <MappingFragment StoreEntitySet="FotoBanda">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+          <ScalarProperty Name="Caminho" ColumnName="Caminho" />
+          <ScalarProperty Name="DataCadastro" ColumnName="DataCadastro" />
+          <ScalarProperty Name="fk_Usuario_Id_Cadastro" ColumnName="fk_Usuario_Id_Cadastro" />
+          <ScalarProperty Name="fk_Banda_Id" ColumnName="fk_Banda_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FotoEmpresa">
+      <EntityTypeMapping TypeName="xaduxModel.FotoEmpresa">
+        <MappingFragment StoreEntitySet="FotoEmpresa">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+          <ScalarProperty Name="Caminho" ColumnName="Caminho" />
+          <ScalarProperty Name="DataCadastro" ColumnName="DataCadastro" />
+          <ScalarProperty Name="fk_Usuario_Id_Cadastro" ColumnName="fk_Usuario_Id_Cadastro" />
+          <ScalarProperty Name="fk_Empresa_Id" ColumnName="fk_Empresa_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InstrumentoMusical">
+      <EntityTypeMapping TypeName="xaduxModel.InstrumentoMusical">
+        <MappingFragment StoreEntitySet="InstrumentoMusical">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NoticiaBanda">
+      <EntityTypeMapping TypeName="xaduxModel.NoticiaBanda">
+        <MappingFragment StoreEntitySet="NoticiaBanda">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+          <ScalarProperty Name="DataCadastro" ColumnName="DataCadastro" />
+          <ScalarProperty Name="fk_Usuario_Id_Cadastro" ColumnName="fk_Usuario_Id_Cadastro" />
+          <ScalarProperty Name="fk_Banda_Id" ColumnName="fk_Banda_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pais">
+      <EntityTypeMapping TypeName="xaduxModel.Pais">
+        <MappingFragment StoreEntitySet="Pais">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Sigla" ColumnName="Sigla" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RecadoBanda">
+      <EntityTypeMapping TypeName="xaduxModel.RecadoBanda">
+        <MappingFragment StoreEntitySet="RecadoBanda">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="fk_Usuario_Id_Cadastro" ColumnName="fk_Usuario_Id_Cadastro" />
+          <ScalarProperty Name="DataCadastro" ColumnName="DataCadastro" />
+          <ScalarProperty Name="Ativa" ColumnName="Ativa" />
+          <ScalarProperty Name="fk_Banda_Id" ColumnName="fk_Banda_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RespostaNoticiaBanda">
+      <EntityTypeMapping TypeName="xaduxModel.RespostaNoticiaBanda">
+        <MappingFragment StoreEntitySet="RespostaNoticiaBanda">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="fk_Usuario_Id_Cadastro" ColumnName="fk_Usuario_Id_Cadastro" />
+          <ScalarProperty Name="DataCadastro" ColumnName="DataCadastro" />
+          <ScalarProperty Name="fk_NoticiaBanda_Id" ColumnName="fk_NoticiaBanda_Id" />
+          <ScalarProperty Name="Ativa" ColumnName="Ativa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sexo">
+      <EntityTypeMapping TypeName="xaduxModel.Sexo">
+        <MappingFragment StoreEntitySet="Sexo">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Sigla" ColumnName="Sigla" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="xaduxModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TipoEmpresa">
+      <EntityTypeMapping TypeName="xaduxModel.TipoEmpresa">
+        <MappingFragment StoreEntitySet="TipoEmpresa">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuario">
+      <EntityTypeMapping TypeName="xaduxModel.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="fk_Sexo_Id" ColumnName="fk_Sexo_Id" />
+          <ScalarProperty Name="DataNascimento" ColumnName="DataNascimento" />
+          <ScalarProperty Name="Cidade" ColumnName="Cidade" />
+          <ScalarProperty Name="fk_Estado_Id" ColumnName="fk_Estado_Id" />
+          <ScalarProperty Name="fk_Pais_Id" ColumnName="fk_Pais_Id" />
+          <ScalarProperty Name="Celular" ColumnName="Celular" />
+          <ScalarProperty Name="Senha" ColumnName="Senha" />
+          <ScalarProperty Name="Administrativo" ColumnName="Administrativo" />
+          <ScalarProperty Name="DataCadastro" ColumnName="DataCadastro" />
+          <ScalarProperty Name="Ativo" ColumnName="Ativo" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VideoBanda">
+      <EntityTypeMapping TypeName="xaduxModel.VideoBanda">
+        <MappingFragment StoreEntitySet="VideoBanda">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="DataCadastro" ColumnName="DataCadastro" />
+          <ScalarProperty Name="fk_Usuario_Id_Cadastro" ColumnName="fk_Usuario_Id_Cadastro" />
+          <ScalarProperty Name="fk_Banda_Id" ColumnName="fk_Banda_Id" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="Rel_EstiloMusical_do_Usuario" TypeName="xaduxModel.Rel_EstiloMusical_do_Usuario" StoreEntitySet="Rel_EstiloMusical_do_Usuario">
+      <EndProperty Name="EstiloMusical">
+        <ScalarProperty Name="Id" ColumnName="fk_EstiloMusical_Id" />
+      </EndProperty>
+      <EndProperty Name="Usuario">
+        <ScalarProperty Name="Id" ColumnName="fk_Usuario_Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="Rel_Fa_da_Banda" TypeName="xaduxModel.Rel_Fa_da_Banda" StoreEntitySet="Rel_Fa_da_Banda">
+      <EndProperty Name="Banda">
+        <ScalarProperty Name="Id" ColumnName="fk_Banda_Id" />
+      </EndProperty>
+      <EndProperty Name="Usuario">
+        <ScalarProperty Name="Id" ColumnName="fk_Usuario_Id_fa" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="Rel_InstrumentoMusical_do_Usuario" TypeName="xaduxModel.Rel_InstrumentoMusical_do_Usuario" StoreEntitySet="Rel_InstrumentoMusical_do_Usuario">
+      <EndProperty Name="InstrumentoMusical">
+        <ScalarProperty Name="Id" ColumnName="fk_InstrumentoMusical_Id" />
+      </EndProperty>
+      <EndProperty Name="Usuario">
+        <ScalarProperty Name="Id" ColumnName="fk_Usuario_Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="Rel_Integrante_da_Banda" TypeName="xaduxModel.Rel_Integrante_da_Banda" StoreEntitySet="Rel_Integrante_da_Banda">
+      <EndProperty Name="Banda">
+        <ScalarProperty Name="Id" ColumnName="fk_Banda_Id" />
+      </EndProperty>
+      <EndProperty Name="Usuario">
+        <ScalarProperty Name="Id" ColumnName="fk_Usuario_Id_integrante" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

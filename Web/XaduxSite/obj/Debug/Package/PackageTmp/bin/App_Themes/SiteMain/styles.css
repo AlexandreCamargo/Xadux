@@ -1,0 +1,414 @@
+A:link 
+{
+	text-decoration:none;
+	color: Black;
+}
+A:visited 
+{
+	text-decoration:none;
+	color: Black;
+}
+A:active 
+{
+	text-decoration:none;
+	color: Black;
+}
+A:hover 
+{
+	text-decoration:none;
+	color: Black;
+}
+a img {
+border-width:0;
+}
+
+body
+{
+margin:0;
+padding:0;
+font-family:Arial, Helvetica;
+font-size:small;
+background-color:#eceded;
+
+} 
+
+#top {
+	height: 97px;
+	border-width:1px; border-style:groove;
+	margin:0 auto;
+}
+
+#siteBlock {
+	margin:0 auto;
+	background:#eceded;
+	min-height: 500px;	
+	/*background-image:url("imagens/Back01.jpg");*/
+	/* Aqui serão definidos os temas*/
+}
+#siteBlockConteudo{
+	margin:0 auto;
+	width: 1000px;
+	min-height: 500px;	
+	background:white;
+	border-left:solid; border-width:thin;
+	border-right:solid; border-width:thin;
+	border-bottom:solid; border-width:thin;
+	border-color: #cccccc;	
+}
+#topContent {
+	height: 100px;
+	/*border-width:thin; border-style:groove;*/
+	margin:0 auto;
+	background:#1e8875;
+	line-height:97px;
+}
+
+#topContentMiddle{
+	height: 80px;
+	width: 998px;
+	margin:0 auto;
+}
+
+#topContentLeft{
+	float: left;
+	margin-left:0px;
+}
+
+#topContentRight{
+	float: Right;
+	width: 778px;
+	height:100px;
+	margin-left: 18px;
+	line-height:30px;
+}
+
+#contentLeft {
+	float: left;
+	width: 194px;
+	text-align:center;  
+	font-size:10pt;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	min-height:100px;
+	/*border-width:thin; border-style:groove;*/
+}	
+#contentMiddle {
+	float: left;
+	width: 570px;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;			
+	min-height:100px;
+	/*border-width:thin; border-style:groove;*/
+
+}
+#contentRight 
+{
+    text-align:center;
+	float: right;
+	width: 190px;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;	
+	border-left:solid; border-width:thin; border-color: #cccccc;
+	/*background-color:#fefbc6;*/
+	/*border-width:thin; border-style:groove;*/
+}
+
+.menuTopicos {
+    font-family:Arial;
+    font-weight:bold;
+    font-size:9pt;
+    height:20px;
+    line-height:20px;
+    background-color:#f2f2f2;
+}
+
+#divTvNoticias {
+/*border-width:thin; border-style:groove;*/
+}
+
+#divAgendaShows {
+/*border-width:thin; border-style:groove;*/
+}
+
+#divMusicasBaixadas{
+/*border-width:thin; border-style:groove;*/
+min-height:100px;
+}
+
+#divPublicidade{
+/*border-width:thin; border-style:groove;*/
+min-height:100px;
+}
+
+#divNoticias{
+/*border-width:thin; border-style:groove;*/
+min-height:50px;
+}
+
+#divRedesSociais{
+/*border-width:thin; border-style:groove;*/
+min-height:100px;
+text-align: center;
+}
+
+#siteBlockRodape {
+	margin:0 auto;
+	background:#eceded;
+}
+
+#contentRodape
+{
+ 	width: 1000px;
+ 	margin:0 auto;
+ 	height:50px;
+ 	font-size:12px;
+	text-align:center;	
+	/*border-width:thin; border-style:groove;*/
+	
+}
+
+/*#contentColunasRodape
+{
+ 	width: 600px;
+ 	color: #cccccc;
+ 	font-size:11px;
+ 	margin:0 auto;
+    height:100px;
+	
+}
+
+.contentColunasRodape
+{	
+    float:left;
+    width:150px;	
+	
+}
+
+.tituloColunasMenu
+{	
+    font-size:14px;
+    color: yellow;
+}
+*/
+
+
+/* Página Estilos Musicais */
+
+.estilosMusicais
+{
+    font-size:xx-large;
+    width:200px;
+    float:left;
+    height:80px;
+    line-height:80px;
+}
+
+.estilosMusicaisGenero
+{
+    font-size:small;
+    font-weight:bold;
+    color:#1e8875;
+    width:500px;
+    float:left;
+    text-align:left;
+    height:80px;
+    line-height:80px;
+}
+
+.cadastreSuaBanda
+{
+    font-size:small;
+    height:80px;
+    line-height:80px;
+}
+
+#divDestaqueEstiloMusical 
+{
+    /*background-color:Black;*/
+     background-image:url("../../imagens/fundoEstrela.jpg");
+    text-align:center;
+}
+
+#divEstiloMusical
+{
+    background-image:url("../../imagens/barragospel.jpg");
+    text-align:center;
+    height:80px;
+}
+
+
+/* Danilo, a partir daqui são os estilos para a Página da BANDA  */
+#divnomeBanda {
+    font-family:Arial;
+    font-weight:bold;
+    font-size:12pt;
+    float:left;
+}
+
+#divBtoEnviar{
+    float:right;
+    text-align:right; 
+    width:280px; 
+    }
+    
+#historicoBanda{
+    }    
+    
+#divDadosBanda
+{
+    text-align:left;
+    margin-left:20px;
+}    
+
+#divFas{
+    text-align:left;
+    margin-left:20px;
+    }
+    
+#divMusicas{
+    /*border-width:thin; border-style:groove;*/
+}    
+
+#divNoticias
+{
+    min-height:280px;
+    /*border-width:thin; border-style:groove;*/
+    
+}
+
+/* FIM estilos para a Página da BANDA  */
+
+
+/* INÍCIO estilos Página Usuário  */
+#divnomeUsuario {
+    font-family:Arial;
+    font-weight:bold;
+    font-size:12pt;
+    float:left;
+}
+#divDadosUsuario
+{
+    text-align:left;
+    margin-left:20px;
+}
+
+#divServicos
+{
+    text-align:left;
+    margin-left:20px;
+}
+
+/* FIM Página Usuário  */
+
+
+/* menu */
+#menu{ margin:0px; padding:0px; list-style:none; color:#fff; line-height:45px; width: 758px; display:inline-block; float:left; z-index:1000; }
+#menu a { color:#fff; text-decoration:none; }
+#menu > li {background:#172322 none repeat scroll 0 0; cursor:pointer; float:left; position:relative;padding:0px 10px;}
+#menu > li a:hover {color:#B0D730;}
+#menu .logo {background:#1e8875; 
+padding:0px; }
+/* sub-menus*/
+#menu ul { padding:0px; margin:0px; display:block; display:inline;}
+#menu li ul { position:absolute; left:-10px; top:0px; margin-top:45px; width:150px; line-height:16px; background-color:#172322; color:#B0D730; /* for IE */ display:none; }
+#menu li:hover ul { display:block;}
+#menu li ul li{ display:block; margin:5px 20px; padding: 5px 0px;  border-top: dotted 1px #606060; list-style-type:none; }
+#menu li ul li:first-child { border-top: none; }
+#menu li ul li a { display:block; color:#B0D730; }
+#menu li ul li a:hover { color:#7FCDFE; }
+/* main submenu */
+#menu #main { left:20px; top:-5px; padding-top:20px; background-color:Black; color:#fff; z-index:999;}
+/* search */
+.searchContainer div { background-color:#fff; display:inline; padding:5px;}
+.searchContainer input[type="text"] {border:none;}
+.searchContainer img { vertical-align:middle;}
+/* corners*/
+#menu .corner_inset_left { position:absolute; top:0px; left:-12px;}
+#menu .corner_inset_right { position:absolute; top:0px; left:150px;}
+#menu .last { background:transparent none repeat scroll 0% 0%; margin:0px; padding:0px; border:none; position:relative; border:none; height:0px;}
+#menu .corner_left { position:absolute; left:0px; top:0px;}
+#menu .corner_right { position:absolute; left:132px; top:0px;}
+#menu .middle { position:absolute; left:18px; height: 10px; width: 115px; top:0px;}
+
+
+/*Detalhes*/
+.eventoListItem
+{
+	margin-bottom: 2px;
+}
+.eventoListItem .firstColumn
+{
+	min-height: 50px; 
+	float: left; 
+	margin-right: 2px;
+	background-color: #F8F8F8;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.eventoListItem .SecondColumn
+{
+	min-height: 50px;
+	width: 370px;
+	float: left; 
+	background-color: #F8F8F8;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.musicaListItem
+{
+	margin-bottom: 2px;
+}
+.musicaListItem .firstColumn
+{
+	min-height: 20px;
+	width: 370px;
+	float: left; 
+	margin-right: 2px;
+	background-color: #F8F8F8;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.musicaListItem .SecondColumn
+{
+	width: 80px;
+	min-height: 20px; 
+	float: left; 	
+	background-color: #F8F8F8;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+/* ADM BAnda */
+
+.botaoADM
+{
+	border:solid;
+	border-width:thin;
+	color:#ff9900;
+	padding:3px;
+	width:165px;
+	margin-left:10px;
+	font-weight:bold;
+	background-color:#ffcc00;
+	
+}
+
+.tituloADM
+{
+	font-size:x-large;
+}	
+
+
+#divDestaqueBanda
+{
+	padding:5px;
+	background-color:#dcdcdc;
+}
+

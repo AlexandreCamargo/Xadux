@@ -1,0 +1,151 @@
+﻿    body
+    {
+    margin:0;
+    padding:0;
+    /*font-family:Arial, Helvetica;
+    font-size:small;*/
+
+    } 
+
+    .title
+    {
+	    color: green;
+	    background: blue;
+    }
+
+    .txtFormRight { 
+    font: 13px verdana, arial, helvetica, sans-serif;
+    text-align: right;
+    }
+
+
+
+    input[type="checkbox"] {border: none;}
+    input[type="radio"] {border: none;background;}
+    input[type="Text"] {border: 2px solid green;color:darkgreen;height: 19pt;background: white;}
+    textarea { border:2px solid green; }
+
+    .titulo
+    {
+        font-family:Arial, Helvetica;
+        font-weight:bold;
+    }
+
+    .tituloBanner
+    {
+        font-family:Arial, Helvetica;
+        color:White;
+        font-size:x-large;
+        font-family:Verdana;
+        padding-top:35px;
+        text-align:center;
+    }
+
+
+    #siteBlock 
+    {
+	    margin:0 auto;
+        width: 1000px;
+	    min-height:600px;
+    }    
+
+    #topContent 
+    {
+	    height: 100px;
+	    /*border-width:thin; border-style:groove;*/
+	    margin:0 auto;
+	    background:#1e8875;
+	
+    }
+
+    #topContentLeft
+    {
+	    float: left;
+	    width: 500px;
+	    height: 150px;
+        background:white;
+    }
+
+    #topContentRight
+    {
+	    float: left;
+	    width: 500px;
+        background:white;	
+        line-height:150px;
+	    font-family:Arial, Helvetica;
+        font-size:x-large;
+    }
+
+    #middleContentTitulo
+    {
+	    font-family:Arial, Helvetica;
+        font-size:x-large;
+        color:gray;
+        text-align: center;
+	    line-height:50px;
+	    /*background-color:#fbf3e6;*/
+    }
+
+    #divPassosCadastro
+    {
+        text-align: center;
+    }
+
+    #middleContent 
+    {
+        margin:0 auto;
+	    width: 1000px;
+	    min-height: 470px;	
+	    background-color:#fbf3e6;
+	    background-image:url("/Imagens/backPreCadastro.jpg");background-repeat: no-repeat; background-position:bottom;
+	    /*border-width:thin; border-style:ridge; border-color:cyan;*/
+    }
+
+
+    #middleContentTop 
+    {
+	    width: 100%;
+	    background-color: Green;
+    }
+
+
+    #middleContentLeft
+    {
+	    float: left;
+	    text-align: center;
+	    margin-right:5px;
+	    font-family:Arial, Helvetica;
+        font-size:small;
+	    width: 654px;
+	    background-color:#ffffff;
+    }
+    #middleContentRight
+    {
+	    float: left;
+	    margin-left:60px;
+	    width: 280px;
+        text-align: left;
+        height:200px;
+        font-family:Arial, Helvetica;
+        font-size:x-large;	
+        color:darkgreen;
+        /*border-width:thin; border-style:ridge; border-color:black;*/
+    }
+
+    #bottonContent
+    {
+	    margin:0 auto;
+	    text-align: center;
+	    width:1000px;
+	    height: 40px;		
+        font-size:small;
+	    font-family:Arial, Helvetica;
+	    line-height: 40px;
+    }
+
+    .shadow {
+	    /*box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);*/
+        box-shadow: 4px 8px 40px rgba(0, 0, 0, 5.5);
+	    -moz-box-shadow: 4px 8px 40px rgba(0, 0, 0, 5.5);
+	    -webkit-box-shadow: 4px 8px 40px rgba(0, 0, 0, 5.5);
+    }

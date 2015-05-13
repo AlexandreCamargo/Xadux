@@ -1,0 +1,6 @@
+C:\Users\DaniloBSi\Dropbox\Projects\Xadux\XaduxClassLibrary\bin\DaniloBSi-PC\XaduxClassLibrary.dll.config
+C:\Users\DaniloBSi\Dropbox\Projects\Xadux\XaduxClassLibrary\bin\DaniloBSi-PC\XaduxClassLibrary.dll
+C:\Users\DaniloBSi\Dropbox\Projects\Xadux\XaduxClassLibrary\bin\DaniloBSi-PC\XaduxClassLibrary.pdb
+C:\Users\DaniloBSi\Dropbox\Projects\Xadux\XaduxClassLibrary\obj\DaniloBSi-PC\ResolveAssemblyReference.cache
+C:\Users\DaniloBSi\Dropbox\Projects\Xadux\XaduxClassLibrary\obj\DaniloBSi-PC\XaduxClassLibrary.dll
+C:\Users\DaniloBSi\Dropbox\Projects\Xadux\XaduxClassLibrary\obj\DaniloBSi-PC\XaduxClassLibrary.pdb

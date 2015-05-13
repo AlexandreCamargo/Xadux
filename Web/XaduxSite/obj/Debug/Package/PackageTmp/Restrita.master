@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Parent.Master" AutoEventWireup="true"
+	CodeBehind="Restrita.master.cs" Inherits="XaduxSite.Restrita" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+	<asp:ContentPlaceHolder ID="head" runat="server">
+	</asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderMiddle" runat="server">
+	<Xadux:MenuAdministrativo ID="MenuAdministrativo1" runat="server" />
+	<div id="contentMiddle" style="border-left: solid; border-width: thin; border-color: #cccccc;">
+		<div id="divDestaqueBanda">
+			<div class="tituloADM">
+				<asp:Label ID="lbl_nomeBanda" runat="server" Text=""></asp:Label>
+			</div>
+			<div>
+				<asp:HyperLink ID="link_urlBanda" runat="server"></asp:HyperLink>
+			</div>
+		</div>
+		<br />
+		<br />
+		<asp:ContentPlaceHolder ID="ContentPlaceHolderMiddle" runat="server">
+		</asp:ContentPlaceHolder>
+	</div>
+</asp:Content>

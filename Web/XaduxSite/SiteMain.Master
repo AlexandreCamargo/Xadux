@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Parent.Master"  AutoEventWireup="true" CodeBehind="SiteMain.master.cs" Inherits="XaduxSite.SiteMain" %>
+
+<asp:content id="Content1" contentplaceholderid="head" runat="server">
+	<asp:ContentPlaceHolder ID="head" runat="server">
+	</asp:ContentPlaceHolder>
+</asp:content>
+<asp:content id="Content2" contentplaceholderid="ContentPlaceHolderMiddle" runat="server">
+	<asp:ContentPlaceHolder ID="ContentPlaceHolderUp" runat="server">
+	</asp:ContentPlaceHolder>
+	<div id="contentLeft">
+		<asp:ContentPlaceHolder ID="ContentPlaceHolderLeft" runat="server">
+		</asp:ContentPlaceHolder>
+	</div>
+	<div id="contentMiddle">
+		<asp:ContentPlaceHolder ID="ContentPlaceHolderMiddle" runat="server">
+		</asp:ContentPlaceHolder>
+	</div>
+	<div id="contentRight">
+		<asp:ContentPlaceHolder ID="ContentPlaceHolderRight" runat="server">
+		</asp:ContentPlaceHolder>
+		<div id="divPublicidade">
+			<div class=""></div><br /><br />
+				<script type="text/javascript"><!--
+					google_ad_client = "pub-2382770655448354";
+					/* 120x600, criado 05/09/11 */
+					google_ad_slot = "6178494029";
+					google_ad_width = 120;
+					google_ad_height = 600;
+				//-->
+				</script>
+				<script type="text/javascript"
+				src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+				</script>
+		
+			<!--<img id="Img2" runat="server" src="~/imagens/anuncios.jpg"/><p />-->
+		</div>
+	</div>
+</asp:content>

@@ -1,0 +1,281 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Parent.master.cs" Inherits="XaduxSite.Parent" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+	<title></title>
+	<asp:ContentPlaceHolder ID="head" runat="server">
+	</asp:ContentPlaceHolder>
+	<script language="javascript" src="Scripts/JScript_other.js"></script>
+
+	<script type="text/javascript">
+
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-26092557-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function () {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+
+	</script>
+
+</head>
+<body>
+	<form id="form1" runat="server">
+	<div id="siteBlock">
+		<!-- Início Topo da página-->
+		<div id="topContent">
+			<div id="topContentMiddle">
+				<!--CÓDIGO MENU SUPERIOR-->
+				<div id="topContentLeft">
+					<a id="A1" runat="server" href="~/default.aspx">
+						<img id="Img33" style="float: left;border:0px;" alt="" runat="server" src="~/imagens/logoXaduX.png" />
+					</a>
+					<div id="topContentRight">
+						&nbsp;
+						<div style="margin-left: 0px;">
+							<ul id="menu">
+								<li class="logo">
+									<img id="Img1" style="float: left;" alt="" runat="server" src="~/imagens/menu/menu_left.png" />
+									<li class="last">
+										<img class="corner_left" alt="" runat="server" src="~/imagens/menu/corner_blue_left.png" />
+										<img class="middle" alt="" runat="server" src="~/imagens/menu/dot_blue.png" />
+										<img class="corner_right" alt="" runat="server" src="~/imagens/menu/corner_blue_right.png" />
+									</li>
+								</li>
+								<li><a id="A3" runat="server" href="~/default.aspx">Home</a> </li>
+								<li class="searchContainer">
+									<div>
+										<asp:TextBox ID="txt_busca" runat="server"></asp:TextBox>
+										<asp:ImageButton ID="img_busca" ImageUrl="~/imagens/menu/magnifier.png" 
+											AlternateText="Buscar" runat="server" onclick="img_busca_Click" />
+										<%--<img id="Img5" runat="server"  />--%>
+									</div>
+									<ul id="search">
+										<li>
+											<img id="Img6" class="corner_inset_left" alt="" runat="server" src="~/imagens/menu/corner_inset_left.png" />
+											<input id="cbxAll" type="checkbox" />Tudo
+											<img id="Img7" class="corner_inset_right" alt="" runat="server" src="~/imagens/menu/corner_inset_right.png" />
+										</li>
+										<li>
+											<input id="Articles" type="checkbox" />Artista</li>
+										<%--<li>
+											<input id="Tutorials" type="checkbox" />Serviços</li>--%>
+										<li class="last">
+											<img id="Img8" class="corner_left" alt="" runat="server" src="~/imagens/menu/corner_left.png" />
+											<img id="Img9" class="middle" alt="" runat="server" src="~/imagens/menu/dot.gif" />
+											<img id="Img10" class="corner_right" alt="" runat="server" src="~/imagens/menu/corner_right.png" />
+										</li>
+									</ul>
+								</li>
+								<%--<li><a href="#">Artistas A-Z</a>
+									<ul id="Ul1">
+										<ol>
+											<img id="Img11" class="corner_inset_left" alt="" runat="server" src="~/imagens/menu/corner_inset_left.png" />
+											<img id="Img12" class="corner_inset_right" alt="" runat="server" src="~/imagens/menu/corner_inset_right.png" />
+										</ol>
+										<ol>
+											<a href="#">A</a>
+											<a href="#">B</a> 
+											<a href="#">C</a>
+											<a href="#">D</a>
+											<a href="#">E</a> 
+											<a href="#">F</a>
+										</ol>
+										<ol>
+											------------------
+										</ol>
+										<ol>
+											<a href="#">G</a>
+											<a href="#">H</a> 
+											<a href="#">I</a>
+											<a href="#">J</a>
+											<a href="#">L</a>
+											<a href="#">M</a>
+										</ol>
+										<ol>
+											------------------
+										</ol>
+										<ol>
+											<a href="#">N</a>
+											<a href="#">O</a> 
+											<a href="#">P</a>
+											<a href="#">Q</a>
+											<a href="#">R</a> 
+											<a href="#">S</a>
+										</ol>
+										<ol>
+											------------------
+										</ol>
+										<ol>
+											<a href="#">T</a>
+											<a href="#">U</a> 
+											<a href="#">V</a>
+											<a href="#">X</a>
+											<a href="#">Y</a>
+											<a href="#">W</a>
+										</ol>
+										<ol>
+											------------------
+										</ol>
+										<ol>
+											<a href="#">Z</a> &nbsp;&nbsp; 
+											<a href="#">0 - 9</a>
+										</ol>
+										
+
+										<li class="last">
+											<img id="Img13" class="corner_left" alt="" runat="server" src="~/imagens/menu/corner_left.png" />
+											<img id="Img14" class="middle" alt="" runat="server" src="~/imagens/menu/dot.gif" />
+											<img id="Img15" class="corner_right" alt="" runat="server" src="~/imagens/menu/corner_right.png" />
+										</li>
+									</ul>
+								</li>--%>
+								<li><a href="#">Estilos Musicais</a>
+									<ul id="help">
+										<asp:Repeater ID="rept_estiloMusical" runat="server" DataSourceID="source_estiloMusical">
+											<HeaderTemplate>
+												<img id="Img16" class="corner_inset_left" alt="" runat="server" src="~/imagens/menu/corner_inset_left.png" />
+												<img id="Img17" class="corner_inset_right" alt="" runat="server" src="~/imagens/menu/corner_inset_right.png" />
+											</HeaderTemplate>
+											<ItemTemplate>
+												<li>
+													<asp:LinkButton runat="server" ID="lnk_estiloMusical" runat="server" CommandName="estiloMusical"
+														CommandArgument='<%#Eval("Nome") %>' Text='<%#Eval("Nome") %>' OnClick="ButtonCommand_Click" />
+												</li>
+											</ItemTemplate>
+											<FooterTemplate>
+												<li class="last">
+													<img id="Img18" class="corner_left" alt="" runat="server" src="~/imagens/menu/corner_left.png" />
+													<img id="Img19" class="middle" alt="" runat="server" src="~/imagens/menu/dot.gif" />
+													<img id="Img20" class="corner_right" alt="" runat="server" src="~/imagens/menu/corner_right.png" />
+												</li>
+											</FooterTemplate>
+										</asp:Repeater>
+										<asp:ObjectDataSource ID="source_estiloMusical" runat="server" SelectMethod="Consultar"
+											TypeName="XaduxClassLibrary.EstiloMusical"></asp:ObjectDataSource>
+									</ul>
+								</li>
+								<%--<li><a href="#">Serviços</a>
+									<ul id="help">
+										<asp:Repeater ID="rept_tipoEmpresa" runat="server" DataSourceID="source_tipoEmpresa">
+											<HeaderTemplate>
+												<img id="Img21" class="corner_inset_left" alt="" runat="server" src="~/imagens/menu/corner_inset_left.png" />
+												<img id="Img22" class="corner_inset_right" alt="" runat="server" src="~/imagens/menu/corner_inset_right.png" />
+											</HeaderTemplate>
+											<ItemTemplate>
+												<li><a href="#">
+													<asp:Label runat="server" ID="tipoEmpresa" Text='<%#Bind("Nome") %>'></asp:Label></a></li>
+											</ItemTemplate>
+											<FooterTemplate>
+												<li class="last">
+													<img id="Img23" class="corner_left" alt="" runat="server" src="~/imagens/menu/corner_left.png" />
+													<img id="Img24" class="middle" alt="" runat="server" src="~/imagens/menu/dot.gif" />
+													<img id="Img25" class="corner_right" alt="" runat="server" src="~/imagens/menu/corner_right.png" />
+												</li>
+											</FooterTemplate>
+										</asp:Repeater>
+										<asp:ObjectDataSource ID="source_tipoEmpresa" runat="server" SelectMethod="Consultar"
+											TypeName="XaduxClassLibrary.TipoEmpresa"></asp:ObjectDataSource>
+									</ul>--%>
+								</li>
+								<li runat="server" id="li_login">
+									<asp:HyperLink ID="link_cadastrar" runat="server" NavigateUrl="Cadastre-se.aspx">Cadastrar</asp:HyperLink>
+									&nbsp;&nbsp;&nbsp;
+									<asp:LinkButton ID="link_login" runat="server" OnClick="link_login_Click">Login</asp:LinkButton>
+								</li>
+								<li runat="server" id="li_logged"><a href="#">
+									<asp:Label ID="lbl_login" runat="server" Text=""></asp:Label>
+									<ul>
+										<img id="Img26" class="corner_inset_left" alt="" runat="server" src="~/imagens/menu/corner_inset_left.png" />
+										<img id="Img27" class="corner_inset_right" alt="" runat="server" src="~/imagens/menu/corner_inset_right.png" />
+										<li><a runat="server" href="~/restrito/editar-perfil.aspx">Editar Perfil</a> </li>
+										<li><a runat="server" href="~/restrito/banda.aspx">Minha(s) Banda(s)</a> </li>
+										<li>
+											<asp:LinkButton ID="link_logout" runat="server" OnClick="link_logout_Click">Sair...</asp:LinkButton></li>
+										<li class="last">
+											<img id="Img28" class="corner_left" alt="" runat="server" src="~/imagens/menu/corner_left.png" />
+											<img id="Img29" class="middle" alt="" runat="server" src="~/imagens/menu/dot.gif" />
+											<img id="Img30" class="corner_right" alt="" runat="server" src="~/imagens/menu/corner_right.png" />
+										</li>
+									</ul>
+									</a>
+								</li>
+								<li>&nbsp;</li><li>&nbsp;</li>
+
+								<img id="Img31" style="float: left;" alt="" runat="server" src="~/imagens/menu/menu_right.png" />
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--FIM CÓDIGO MENU SUPERIOR-->
+		</div>
+		<!-- Fim topo da página-->
+		<!-- Início Conteúdo -->
+		<div id="siteBlockConteudo">
+			<asp:ContentPlaceHolder ID="ContentPlaceHolderMiddle" runat="server">
+			</asp:ContentPlaceHolder>
+			<div style="clear: both;"></div>
+		</div>
+		<!-- Fim conteúdo-->
+		<!-- Início Rodapé-->
+		<div id="siteBlockRodape">
+			<div id="contentColunasRodape">
+				<br />
+				<%--<div class="contentColunasRodape">
+					<strong>SERVIÇOS</strong>
+					<div>
+						<asp:Repeater ID="rept_servicos2" runat="server" DataSourceID="source_tipoEmpresa">
+							<ItemTemplate>
+								<a href="#">
+									<asp:Label runat="server" ID="tipoEmpresa" Text='<%#Bind("Nome") %>'></asp:Label>
+								</a>
+								<br />
+							</ItemTemplate>
+						</asp:Repeater>
+					</div>
+				</div>
+				<div class="contentColunasRodape">
+					<strong>XADUX NEWS</strong>
+					<div>
+						Notícias<br />
+						Cobertura de Shows<br />
+						Entrevistas<br />
+						Colunas
+					</div>
+				</div>
+				<div class="contentColunasRodape">
+					<strong>AJUDA</strong>
+					<div>
+						Perguntas Frequentes<br />
+						Dicas de Segurança<br />
+						Política de Privacidade<br />
+						Mapa do Site
+					</div>
+				</div>
+				<div class="contentColunasRodape">
+					<strong>ANÚNCIOS</strong>
+					<div>
+						Como Anunciar<br />
+						Atinja o seu Público Alvo<br />
+						Controle o seu Orçamento
+					</div>
+				</div>--%>
+			</div>
+			<div id="contentRodape">
+				Xadux © 2011 · Todos os direitos reservados |
+				
+				<asp:HyperLink ID="lnk_faleConosco" runat="server" NavigateUrl="~/faleconosco.aspx">
+					<u>Fale Conosco</u>
+				</asp:HyperLink>
+			</div>
+		</div>
+		<!-- Fim rodapé-->
+	</div>
+	</form>
+</body>
+</html>

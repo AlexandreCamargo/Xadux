@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\inetpub\wwwroot\Xadux.Admin" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="DynamicData/FieldTemplates/ManyToMany_Edit.ascx" publishTime="05/02/2011 16:30:44" />
+    <file relUrl="DynamicData/FieldTemplates/ManyToMany.ascx" publishTime="05/02/2011 16:30:44" />
+    <file relUrl="bin/XaduxClassLibrary.pdb" publishTime="09/22/2011 20:12:01" />
+    <file relUrl="DynamicData/Content/Images/PgLast.gif" publishTime="05/02/2011 16:30:44" />
+    <file relUrl="DynamicData/FieldTemplates/Children.ascx" publishTime="05/02/2011 16:30:44" />
+    <file relUrl="Global.asax" publishTime="05/02/2011 16:30:45" />
+    <file relUrl="Site.master" publishTime="05/02/2011 16:30:45" />
+    <file relUrl="DynamicData/FieldTemplates/Enumeration_Edit.ascx" publishTime="05/02/2011 16:30:44" />
+    <file relUrl="DynamicData/Filters/Enumeration.ascx" publishTime="05/02/2011 16:30:45" />
+    <file relUrl="DynamicData/Filters/ForeignKey.ascx" publishTime="05/02/2011 16:30:45" />
+    <file relUrl="web.config" publishTime="09/28/2011 23:44:24" />
+    <file relUrl="DynamicData/FieldTemplates/MultilineText_Edit.ascx" publishTime="05/02/2011 16:30:44" />
+    <file relUrl="DynamicData/Filters/Boolean.ascx" publishTime="05/02/2011 16:30:44" />
+    <file relUrl="Scripts/jquery-1.4.1.js" publishTime="05/02/2011 16:30:45" />
+    <file relUrl="DynamicData/Content/Images/header_back.gif" publishTime="05/02/2011 16:30:44" />
+    <file relUrl="DynamicData/FieldTemplates/Decimal_Edit.ascx" publishTime="05/02/2011 16:30:44" />
+    <file relUrl="TestPage.aspx" publishTime="05/09/2011 01:47:40" />
+    <file relUrl="DynamicData/FieldTemplates/DateTime_Edit.ascx" publishTime="05/02/2011 16:30:44" />
+    <file relUrl="DynamicData/Content/Images/Back.gif" publishTime="05/02/2011 16:30:44" />
+    <file relUrl="bin/XaduxAdmin.pdb" publishTime="10/03/2011 23:26:15" />
+    <file relUrl="Scripts/yahooMediaPlayer.js" publishTime="05/20/2011 00:29:04" />
+    <file relUrl="DynamicData/PageTemplates/Insert.aspx" publishTime="05/02/2011 16:30:45" />
+    <file relUrl="DynamicData/FieldTemplates/Text_Edit.ascx" publishTime="05/02/2011 16:30:44" />
+    <file relUrl="DynamicData/EntityTemplates/Default_Insert.ascx" publishTime="05/02/2011 16:30:44" />
+    <file relUrl="bin/XaduxAdmin.dll" publishTime="10/03/2011 23:26:16" />
+    <file relUrl="DynamicData/PageTemplates/Details.aspx" publishTime="05/02/2011 16:30:45" />
+    <file relUrl="DynamicData/EntityTemplates/Default_Edit.ascx" publishTime="05/02/2011 16:30:44" />
+    <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="05/02/2011 16:30:45" />
+    <file relUrl="DynamicData/PageTemplates/Edit.aspx" publishTime="05/02/2011 16:30:45" />
+    <file relUrl="DynamicData/FieldTemplates/DateTime.ascx" publishTime="05/02/2011 16:30:44" />
+    <file relUrl="DynamicData/Content/GridViewPager.ascx" publishTime="05/02/2011 16:30:44" />
+    <file relUrl="DynamicData/FieldTemplates/ForeignKey_Edit.ascx" publishTime="05/02/2011 16:30:44" />
+    <file relUrl="Default.aspx" publishTime="05/02/2011 16:30:45" />
+    <file relUrl="DynamicData/PageTemplates/ListDetails.aspx" publishTime="05/02/2011 16:30:45" />
+    <file relUrl="DynamicData/Content/Images/PgFirst.gif" publishTime="05/02/2011 16:30:44" />
+    <file relUrl="Site.css" publishTime="05/02/2011 16:30:45" />
+    <file relUrl="DynamicData/FieldTemplates/ForeignKey.ascx" publishTime="05/02/2011 16:30:44" />
+    <file relUrl="DynamicData/FieldTemplates/Text.ascx" publishTime="05/02/2011 16:30:44" />
+    <file relUrl="DynamicData/FieldTemplates/Integer_Edit.ascx" publishTime="05/02/2011 16:30:44" />
+    <file relUrl="Login.aspx" publishTime="05/09/2011 12:02:02" />
+    <file relUrl="DynamicData/EntityTemplates/Default.ascx" publishTime="05/02/2011 16:30:44" />
+    <file relUrl="DynamicData/FieldTemplates/Children_Insert.ascx" publishTime="05/02/2011 16:30:44" />
+    <file relUrl="DynamicData/PageTemplates/List.aspx" publishTime="05/02/2011 16:30:45" />
+    <file relUrl="DynamicData/FieldTemplates/Boolean_Edit.ascx" publishTime="05/02/2011 16:30:44" />
+    <file relUrl="DynamicData/FieldTemplates/EmailAddress.ascx" publishTime="05/02/2011 16:30:44" />
+    <file relUrl="DynamicData/FieldTemplates/Boolean.ascx" publishTime="05/02/2011 16:30:44" />
+    <file relUrl="DynamicData/Content/Images/plus.gif" publishTime="05/02/2011 16:30:44" />
+    <file relUrl="DynamicData/FieldTemplates/Url.ascx" publishTime="05/02/2011 16:30:44" />
+    <file relUrl="DynamicData/Content/Images/PgPrev.gif" publishTime="05/02/2011 16:30:44" />
+    <file relUrl="DynamicData/FieldTemplates/Enumeration.ascx" publishTime="05/02/2011 16:30:44" />
+    <file relUrl="bin/XaduxClassLibrary.dll" publishTime="09/22/2011 20:12:03" />
+    <file relUrl="DynamicData/Content/Images/PgNext.gif" publishTime="05/02/2011 16:30:44" />
+    <file relUrl="DynamicData/web.config" publishTime="05/02/2011 16:30:45" />
+    <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="05/02/2011 16:30:45" />
+  </publishProfile>
+</publishData>

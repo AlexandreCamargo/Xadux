@@ -1,0 +1,48 @@
+C:\Users\DaniloBSi\Documents\Projetos\Xadux\XaduxClassLibrary\bin\Debug\XaduxClassLibrary.dll.config
+C:\Users\DaniloBSi\Documents\Projetos\Xadux\XaduxClassLibrary\bin\Debug\XaduxClassLibrary.dll
+C:\Users\DaniloBSi\Documents\Projetos\Xadux\XaduxClassLibrary\bin\Debug\XaduxClassLibrary.pdb
+C:\Users\DaniloBSi\Documents\Projetos\Xadux\XaduxClassLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\DaniloBSi\Documents\Projetos\Xadux\XaduxClassLibrary\obj\Debug\XaduxClassLibrary.dll
+C:\Users\DaniloBSi\Documents\Projetos\Xadux\XaduxClassLibrary\obj\Debug\XaduxClassLibrary.pdb
+C:\Users\danilo.silva\Dropbox\Projects\Xadux\XaduxClassLibrary\bin\Debug\XaduxClassLibrary.dll.config
+C:\Users\danilo.silva\Dropbox\Projects\Xadux\XaduxClassLibrary\bin\Debug\XaduxClassLibrary.dll
+C:\Users\danilo.silva\Dropbox\Projects\Xadux\XaduxClassLibrary\bin\Debug\XaduxClassLibrary.pdb
+C:\Users\danilo.silva\Dropbox\Projects\Xadux\XaduxClassLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\danilo.silva\Dropbox\Projects\Xadux\XaduxClassLibrary\obj\Debug\XaduxClassLibrary.dll
+C:\Users\danilo.silva\Dropbox\Projects\Xadux\XaduxClassLibrary\obj\Debug\XaduxClassLibrary.pdb
+C:\Users\Alexandre\Dropbox\Xadux\XaduxClassLibrary\bin\Debug\XaduxClassLibrary.dll.config
+C:\Users\Alexandre\Dropbox\Xadux\XaduxClassLibrary\bin\Debug\XaduxClassLibrary.dll
+C:\Users\Alexandre\Dropbox\Xadux\XaduxClassLibrary\bin\Debug\XaduxClassLibrary.pdb
+C:\Users\Alexandre\Dropbox\Xadux\XaduxClassLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alexandre\Dropbox\Xadux\XaduxClassLibrary\obj\Debug\XaduxClassLibrary.dll
+C:\Users\Alexandre\Dropbox\Xadux\XaduxClassLibrary\obj\Debug\XaduxClassLibrary.pdb
+C:\Users\DaniloBSi\Dropbox\Projects\Xadux\XaduxClassLibrary\bin\Debug\XaduxClassLibrary.dll.config
+C:\Users\DaniloBSi\Dropbox\Projects\Xadux\XaduxClassLibrary\bin\Debug\XaduxClassLibrary.dll
+C:\Users\DaniloBSi\Dropbox\Projects\Xadux\XaduxClassLibrary\bin\Debug\XaduxClassLibrary.pdb
+C:\Users\DaniloBSi\Dropbox\Projects\Xadux\XaduxClassLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\DaniloBSi\Dropbox\Projects\Xadux\XaduxClassLibrary\obj\Debug\XaduxClassLibrary.dll
+C:\Users\DaniloBSi\Dropbox\Projects\Xadux\XaduxClassLibrary\obj\Debug\XaduxClassLibrary.pdb
+C:\Documents and Settings\NotebookCompaq\My Documents\Dropbox\Xadux\XaduxClassLibrary\bin\Debug\XaduxClassLibrary.dll.config
+C:\Documents and Settings\NotebookCompaq\My Documents\Dropbox\Xadux\XaduxClassLibrary\bin\Debug\XaduxClassLibrary.dll
+C:\Documents and Settings\NotebookCompaq\My Documents\Dropbox\Xadux\XaduxClassLibrary\bin\Debug\XaduxClassLibrary.pdb
+C:\Documents and Settings\NotebookCompaq\My Documents\Dropbox\Xadux\XaduxClassLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\NotebookCompaq\My Documents\Dropbox\Xadux\XaduxClassLibrary\obj\Debug\XaduxClassLibrary.dll
+C:\Documents and Settings\NotebookCompaq\My Documents\Dropbox\Xadux\XaduxClassLibrary\obj\Debug\XaduxClassLibrary.pdb
+C:\Users\aagcamargo\Dropbox\Xadux\XaduxClassLibrary\bin\Debug\XaduxClassLibrary.dll.config
+C:\Users\aagcamargo\Dropbox\Xadux\XaduxClassLibrary\bin\Debug\XaduxClassLibrary.dll
+C:\Users\aagcamargo\Dropbox\Xadux\XaduxClassLibrary\bin\Debug\XaduxClassLibrary.pdb
+C:\Users\aagcamargo\Dropbox\Xadux\XaduxClassLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\aagcamargo\Dropbox\Xadux\XaduxClassLibrary\obj\Debug\XaduxClassLibrary.dll
+C:\Users\aagcamargo\Dropbox\Xadux\XaduxClassLibrary\obj\Debug\XaduxClassLibrary.pdb
+D:\aagcamargo\Dropbox\Xadux\XaduxClassLibrary\bin\Debug\XaduxClassLibrary.dll.config
+D:\aagcamargo\Dropbox\Xadux\XaduxClassLibrary\bin\Debug\XaduxClassLibrary.dll
+D:\aagcamargo\Dropbox\Xadux\XaduxClassLibrary\bin\Debug\XaduxClassLibrary.pdb
+D:\aagcamargo\Dropbox\Xadux\XaduxClassLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\aagcamargo\Dropbox\Xadux\XaduxClassLibrary\obj\Debug\XaduxClassLibrary.dll
+D:\aagcamargo\Dropbox\Xadux\XaduxClassLibrary\obj\Debug\XaduxClassLibrary.pdb
+C:\Users\alexandre.camargo\Downloads\Xadux\XaduxClassLibrary\bin\Debug\XaduxClassLibrary.dll.config
+C:\Users\alexandre.camargo\Downloads\Xadux\XaduxClassLibrary\bin\Debug\XaduxClassLibrary.dll
+C:\Users\alexandre.camargo\Downloads\Xadux\XaduxClassLibrary\bin\Debug\XaduxClassLibrary.pdb
+C:\Users\alexandre.camargo\Downloads\Xadux\XaduxClassLibrary\obj\Debug\XaduxClassLibrary.csprojResolveAssemblyReference.cache
+C:\Users\alexandre.camargo\Downloads\Xadux\XaduxClassLibrary\obj\Debug\XaduxClassLibrary.dll
+C:\Users\alexandre.camargo\Downloads\Xadux\XaduxClassLibrary\obj\Debug\XaduxClassLibrary.pdb

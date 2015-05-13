@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        body { font-family:Arial, Helvetica, Sans-Serif; font-size:12px; margin:0px 20px;}
+        /* menu */
+        #menu{ margin:0px; padding:0px; list-style:none; color:#fff; line-height:45px; display:inline-block; float:left; z-index:1000; }
+        #menu a { color:#fff; text-decoration:none; }
+        #menu > li {background:#172322 none repeat scroll 0 0; cursor:pointer; float:left; position:relative;padding:0px 10px;}
+        #menu > li a:hover {color:#B0D730;}
+        #menu .logo {background:transparent none repeat scroll 0% 0%; padding:0px; background-color:Transparent;}
+        /* sub-menus*/
+        #menu ul { padding:0px; margin:0px; display:block; display:inline;}
+        #menu li ul { position:absolute; left:-10px; top:0px; margin-top:45px; width:150px; line-height:16px; background-color:#172322; color:#0395CC; /* for IE */ display:none; }
+        #menu li:hover ul { display:block;}
+        #menu li ul li{ display:block; margin:5px 20px; padding: 5px 0px;  border-top: dotted 1px #606060; list-style-type:none; }
+        #menu li ul li:first-child { border-top: none; }
+        #menu li ul li a { display:block; color:#B0D730; }
+        #menu li ul li a:hover { color:#7FCDFE; }
+        /* main submenu */
+        #menu #main { left:0px; top:-20px; padding-top:20px; background-color:#7cb7e3; color:#fff; z-index:999;}
+        /* search */
+        .searchContainer div { background-color:#fff; display:inline; padding:5px;}
+        .searchContainer input[type="text"] {border:none;}
+        .searchContainer img { vertical-align:middle;}
+        /* corners*/
+        #menu .corner_inset_left { position:absolute; top:0px; left:-12px;}
+        #menu .corner_inset_right { position:absolute; top:0px; left:150px;}
+        #menu .last { background:transparent none repeat scroll 0% 0%; margin:0px; padding:0px; border:none; position:relative; border:none; height:0px;}
+        #menu .corner_left { position:absolute; left:0px; top:0px;}
+        #menu .corner_right { position:absolute; left:132px; top:0px;}
+        #menu .middle { position:absolute; left:18px; height: 20px; width: 115px; top:0px;}
+    </style>
+</head>
+<body>
+    <div style="margin-left:50px;">
+        <ul id="menu">
+            <li class="logo">
+                <img style="float:left;" alt="" src="menu_left.png"/>
+                <ul id="main">
+                    <li>Welcome to <b>Create Vimeo-like top navigation</b> tutorial!</li>
+                    <li class="last">
+                        <img class="corner_left" alt="" src="corner_blue_left.png"/>
+                        <img class="middle" alt="" src="dot_blue.png"/>
+                        <img class="corner_right" alt="" src="corner_blue_right.png"/>
+                    </li>
+                </ul>
+                
+            </li>
+            <li><a href="#">Home</a>
+            </li>
+
+            <li class="searchContainer">
+                <div>
+                <input type="text" id="searchField" />
+                <img src="magnifier.png" alt="Search" onclick="alert('You clicked on search button')" /></div>
+                <ul id="search">
+                    <li>
+                        <img class="corner_inset_left" alt="" src="corner_inset_left.png"/>
+                        <input id="cbxAll" type="checkbox" />Tudo
+                        <img class="corner_inset_right" alt="" src="corner_inset_right.png"/>
+                    </li>
+                    <li><input id="Articles" type="checkbox" />Artista</li>
+                    <li><input id="Tutorials" type="checkbox" />Serviços</li>
+                    <li class="last">
+                        <img class="corner_left" alt="" src="corner_left.png"/>
+                        <img class="middle" alt="" src="dot.gif"/>
+                        <img class="corner_right" alt="" src="corner_right.png"/>
+                    </li>
+                </ul>
+            </li>
+
+            <li><a href="#">Artistas A-Z</a>
+                <ul id="help">
+                    <li>
+                        <img class="corner_inset_left" alt="" src="corner_inset_left.png"/>
+                        <a href="#">A</a>
+                        <img class="corner_inset_right" alt="" src="corner_inset_right.png"/>
+                    </li>                
+                    <li><a href="#">B</a></li>
+                    <li><a href="#">C</a></li>
+                    <li><a href="#">D</a></li>                    
+                    <li><a href="#">E</a></li>                    
+                    <li class="last">
+                        <img class="corner_left" alt="" src="corner_left.png"/>
+                        <img class="middle" alt="" src="dot.gif"/>
+                        <img class="corner_right" alt="" src="corner_right.png"/>
+                    </li>
+                </ul>
+            </li> 
+            
+            <li><a href="#">Estilos Musicais</a>
+                <ul id="help">
+                    <li>
+                        <img class="corner_inset_left" alt="" src="corner_inset_left.png"/>
+                        <a href="#">A</a>
+                        <img class="corner_inset_right" alt="" src="corner_inset_right.png"/>
+                    </li>                
+                    <li><a href="#">Pop</a></li>
+                    <li><a href="#">Rock</a></li>
+                    <li><a href="#">Clássica</a></li>                    
+                    <li><a href="#">MPB</a></li>
+                    <li><a href="#">Soul</a></li>                                        
+                    <li><a href="#">Eletrônico</a></li>                    
+                    <li><a href="#">Emo</a></li>                    
+                    <li><a href="#">Heavy Metal</a></li>                    
+                    <li class="last">
+                        <img class="corner_left" alt="" src="corner_left.png"/>
+                        <img class="middle" alt="" src="dot.gif"/>
+                        <img class="corner_right" alt="" src="corner_right.png"/>
+                    </li>
+                </ul>
+            </li>             
+
+            <li><a href="#">Serviços</a>
+                <ul id="help">
+                    <li>
+                        <img class="corner_inset_left" alt="" src="corner_inset_left.png"/>
+                        <a href="#">Casa de Show</a>
+                        <img class="corner_inset_right" alt="" src="corner_inset_right.png"/>
+                    </li>
+                    <li><a href="#">Produtora</a></li>
+                    <li><a href="#">Gravadora</a></li>
+                    <li><a href="#">Estúdio</a></li>                    
+                    <li><a href="#">Rádio</a></li>                    
+                    <li class="last">
+                        <img class="corner_left" alt="" src="corner_left.png"/>
+                        <img class="middle" alt="" src="dot.gif"/>
+                        <img class="corner_right" alt="" src="corner_right.png"/>
+                    </li>
+                </ul>
+            </li>
+            
+            </li>
+            	<li><a href="#">&nbsp;</a>
+            </li>
+            
+            </li>
+            	<li><a href="#">&nbsp;</a>
+            </li>                        
+
+            </li>
+            	<li><a href="#">Cadastrar</a>
+            </li>
+
+            </li>
+            	<li><a href="#">Login</a>
+            </li>
+
+        </ul>
+        <img style="float:left;" alt="" src="menu_right.png"/>
+    </div>
+    <div style="float:none; clear:both;"></div>
+
+</body>
+</html>

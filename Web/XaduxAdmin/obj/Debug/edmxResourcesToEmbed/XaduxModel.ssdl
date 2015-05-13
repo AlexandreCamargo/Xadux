@@ -1,0 +1,784 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="xaduxModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2005" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="xaduxModelStoreContainer">
+    <EntitySet Name="Banda" EntityType="xaduxModel.Store.Banda" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Empresa" EntityType="xaduxModel.Store.Empresa" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Estado" EntityType="xaduxModel.Store.Estado" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="EstiloMusical" EntityType="xaduxModel.Store.EstiloMusical" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Evento" EntityType="xaduxModel.Store.Evento" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FotoBanda" EntityType="xaduxModel.Store.FotoBanda" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FotoEmpresa" EntityType="xaduxModel.Store.FotoEmpresa" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InstrumentoMusical" EntityType="xaduxModel.Store.InstrumentoMusical" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="NoticiaBanda" EntityType="xaduxModel.Store.NoticiaBanda" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Pais" EntityType="xaduxModel.Store.Pais" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="RecadoBanda" EntityType="xaduxModel.Store.RecadoBanda" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Rel_EstiloMusical_do_Usuario" EntityType="xaduxModel.Store.Rel_EstiloMusical_do_Usuario" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Rel_Fa_da_Banda" EntityType="xaduxModel.Store.Rel_Fa_da_Banda" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Rel_InstrumentoMusical_do_Usuario" EntityType="xaduxModel.Store.Rel_InstrumentoMusical_do_Usuario" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Rel_Integrante_da_Banda" EntityType="xaduxModel.Store.Rel_Integrante_da_Banda" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="RespostaNoticiaBanda" EntityType="xaduxModel.Store.RespostaNoticiaBanda" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Sexo" EntityType="xaduxModel.Store.Sexo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="sysdiagrams" EntityType="xaduxModel.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TipoEmpresa" EntityType="xaduxModel.Store.TipoEmpresa" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Usuario" EntityType="xaduxModel.Store.Usuario" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="VideoBanda" EntityType="xaduxModel.Store.VideoBanda" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_Banda_Empresa" Association="xaduxModel.Store.FK_Banda_Empresa">
+      <End Role="Empresa" EntitySet="Empresa" />
+      <End Role="Banda" EntitySet="Banda" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Banda_EstiloMusical" Association="xaduxModel.Store.FK_Banda_EstiloMusical">
+      <End Role="EstiloMusical" EntitySet="EstiloMusical" />
+      <End Role="Banda" EntitySet="Banda" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Banda_Usuario" Association="xaduxModel.Store.FK_Banda_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Banda" EntitySet="Banda" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Empresa_Estado" Association="xaduxModel.Store.FK_Empresa_Estado">
+      <End Role="Estado" EntitySet="Estado" />
+      <End Role="Empresa" EntitySet="Empresa" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Empresa_Pais" Association="xaduxModel.Store.FK_Empresa_Pais">
+      <End Role="Pais" EntitySet="Pais" />
+      <End Role="Empresa" EntitySet="Empresa" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Empresa_TipoEmpresa" Association="xaduxModel.Store.FK_Empresa_TipoEmpresa">
+      <End Role="TipoEmpresa" EntitySet="TipoEmpresa" />
+      <End Role="Empresa" EntitySet="Empresa" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Empresa_Usuario" Association="xaduxModel.Store.FK_Empresa_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Empresa" EntitySet="Empresa" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Evento_Banda" Association="xaduxModel.Store.FK_Evento_Banda">
+      <End Role="Banda" EntitySet="Banda" />
+      <End Role="Evento" EntitySet="Evento" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Evento_Empresa" Association="xaduxModel.Store.FK_Evento_Empresa">
+      <End Role="Empresa" EntitySet="Empresa" />
+      <End Role="Evento" EntitySet="Evento" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Evento_Usuario" Association="xaduxModel.Store.FK_Evento_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Evento" EntitySet="Evento" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FotoBanda_Banda" Association="xaduxModel.Store.FK_FotoBanda_Banda">
+      <End Role="Banda" EntitySet="Banda" />
+      <End Role="FotoBanda" EntitySet="FotoBanda" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FotoBanda_Usuario" Association="xaduxModel.Store.FK_FotoBanda_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="FotoBanda" EntitySet="FotoBanda" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FotoEmpresa_Empresa" Association="xaduxModel.Store.FK_FotoEmpresa_Empresa">
+      <End Role="Empresa" EntitySet="Empresa" />
+      <End Role="FotoEmpresa" EntitySet="FotoEmpresa" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FotoEmpresa_Usuario" Association="xaduxModel.Store.FK_FotoEmpresa_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="FotoEmpresa" EntitySet="FotoEmpresa" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NoticiaBanda_Banda" Association="xaduxModel.Store.FK_NoticiaBanda_Banda">
+      <End Role="Banda" EntitySet="Banda" />
+      <End Role="NoticiaBanda" EntitySet="NoticiaBanda" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NoticiaBanda_Usuario" Association="xaduxModel.Store.FK_NoticiaBanda_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="NoticiaBanda" EntitySet="NoticiaBanda" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RecadoBanda_Banda" Association="xaduxModel.Store.FK_RecadoBanda_Banda">
+      <End Role="Banda" EntitySet="Banda" />
+      <End Role="RecadoBanda" EntitySet="RecadoBanda" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RecadoBanda_Usuario" Association="xaduxModel.Store.FK_RecadoBanda_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="RecadoBanda" EntitySet="RecadoBanda" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Rel_EstiloMusical_do_Usuario_EstiloMusical" Association="xaduxModel.Store.FK_Rel_EstiloMusical_do_Usuario_EstiloMusical">
+      <End Role="EstiloMusical" EntitySet="EstiloMusical" />
+      <End Role="Rel_EstiloMusical_do_Usuario" EntitySet="Rel_EstiloMusical_do_Usuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Rel_EstiloMusical_do_Usuario_Usuario" Association="xaduxModel.Store.FK_Rel_EstiloMusical_do_Usuario_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Rel_EstiloMusical_do_Usuario" EntitySet="Rel_EstiloMusical_do_Usuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Rel_Fa_da_Banda_Banda" Association="xaduxModel.Store.FK_Rel_Fa_da_Banda_Banda">
+      <End Role="Banda" EntitySet="Banda" />
+      <End Role="Rel_Fa_da_Banda" EntitySet="Rel_Fa_da_Banda" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Rel_Fa_da_Banda_Usuario" Association="xaduxModel.Store.FK_Rel_Fa_da_Banda_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Rel_Fa_da_Banda" EntitySet="Rel_Fa_da_Banda" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Rel_InstrumentoMusical_do_Usuario_InstrumentoMusical" Association="xaduxModel.Store.FK_Rel_InstrumentoMusical_do_Usuario_InstrumentoMusical">
+      <End Role="InstrumentoMusical" EntitySet="InstrumentoMusical" />
+      <End Role="Rel_InstrumentoMusical_do_Usuario" EntitySet="Rel_InstrumentoMusical_do_Usuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Rel_InstrumentoMusical_do_Usuario_Usuario" Association="xaduxModel.Store.FK_Rel_InstrumentoMusical_do_Usuario_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Rel_InstrumentoMusical_do_Usuario" EntitySet="Rel_InstrumentoMusical_do_Usuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Rel_Integrante_da_Banda_Banda" Association="xaduxModel.Store.FK_Rel_Integrante_da_Banda_Banda">
+      <End Role="Banda" EntitySet="Banda" />
+      <End Role="Rel_Integrante_da_Banda" EntitySet="Rel_Integrante_da_Banda" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Rel_Integrante_da_Banda_Usuario" Association="xaduxModel.Store.FK_Rel_Integrante_da_Banda_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Rel_Integrante_da_Banda" EntitySet="Rel_Integrante_da_Banda" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RespostaNoticiaBanda_NoticiaBanda" Association="xaduxModel.Store.FK_RespostaNoticiaBanda_NoticiaBanda">
+      <End Role="NoticiaBanda" EntitySet="NoticiaBanda" />
+      <End Role="RespostaNoticiaBanda" EntitySet="RespostaNoticiaBanda" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RespostaNoticiaBanda_Usuario" Association="xaduxModel.Store.FK_RespostaNoticiaBanda_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="RespostaNoticiaBanda" EntitySet="RespostaNoticiaBanda" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Usuario_Estado" Association="xaduxModel.Store.FK_Usuario_Estado">
+      <End Role="Estado" EntitySet="Estado" />
+      <End Role="Usuario" EntitySet="Usuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Usuario_Pais" Association="xaduxModel.Store.FK_Usuario_Pais">
+      <End Role="Pais" EntitySet="Pais" />
+      <End Role="Usuario" EntitySet="Usuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Usuario_Sexo" Association="xaduxModel.Store.FK_Usuario_Sexo">
+      <End Role="Sexo" EntitySet="Sexo" />
+      <End Role="Usuario" EntitySet="Usuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VideoBanda_Banda" Association="xaduxModel.Store.FK_VideoBanda_Banda">
+      <End Role="Banda" EntitySet="Banda" />
+      <End Role="VideoBanda" EntitySet="VideoBanda" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VideoBanda_Usuario" Association="xaduxModel.Store.FK_VideoBanda_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="VideoBanda" EntitySet="VideoBanda" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Banda">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="varchar" Nullable="false" MaxLength="250" />
+    <Property Name="Descricao" Type="text" />
+    <Property Name="fk_Empresa_Id_Gravadora" Type="int" />
+    <Property Name="Site" Type="varchar" MaxLength="200" />
+    <Property Name="Facebook" Type="varchar" MaxLength="200" />
+    <Property Name="Twitter" Type="varchar" MaxLength="200" />
+    <Property Name="fk_Usuario_Id_Cadastro" Type="int" Nullable="false" />
+    <Property Name="DataCadastro" Type="datetime" Nullable="false" />
+    <Property Name="fk_EstiloMusical_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Empresa">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="Endereco" Type="varchar" MaxLength="250" />
+    <Property Name="EnderecoNumero" Type="varchar" MaxLength="20" />
+    <Property Name="CEP" Type="nchar" MaxLength="10" />
+    <Property Name="Bairro" Type="varchar" MaxLength="100" />
+    <Property Name="Cidade" Type="varchar" MaxLength="150" />
+    <Property Name="fk_Estado_Id" Type="int" />
+    <Property Name="fk_Pais_Id" Type="int" Nullable="false" />
+    <Property Name="Site" Type="varchar" MaxLength="250" />
+    <Property Name="Email" Type="varchar" MaxLength="250" />
+    <Property Name="fk_Usuario_Id_Responsavel" Type="int" />
+    <Property Name="TelefoneContato" Type="varchar" MaxLength="20" />
+    <Property Name="fk_TipoEmpresa_Id" Type="int" Nullable="false" />
+    <Property Name="Ativa" Type="bit" Nullable="false" />
+    <Property Name="Descricao" Type="text" />
+  </EntityType>
+  <EntityType Name="Estado">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="varchar" Nullable="false" MaxLength="70" />
+    <Property Name="Sigla" Type="varchar" Nullable="false" MaxLength="2" />
+  </EntityType>
+  <EntityType Name="EstiloMusical">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="varchar" Nullable="false" MaxLength="150" />
+    <Property Name="Descricao" Type="text" />
+  </EntityType>
+  <EntityType Name="Evento">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="varchar" Nullable="false" MaxLength="250" />
+    <Property Name="Data" Type="datetime" Nullable="false" />
+    <Property Name="fk_Empresa_Id_CasaShow" Type="int" />
+    <Property Name="Horario" Type="varchar" MaxLength="50" />
+    <Property Name="Descricao" Type="text" />
+    <Property Name="Preco" Type="money" />
+    <Property Name="Site" Type="varchar" MaxLength="200" />
+    <Property Name="fk_Usuario_Id_Cadastro" Type="int" Nullable="false" />
+    <Property Name="DataCadastro" Type="datetime" Nullable="false" />
+    <Property Name="fk_Banda_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FotoBanda">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="varchar" Nullable="false" MaxLength="250" />
+    <Property Name="Descricao" Type="varchar" MaxLength="500" />
+    <Property Name="Caminho" Type="varchar" Nullable="false" MaxLength="250" />
+    <Property Name="DataCadastro" Type="datetime" Nullable="false" />
+    <Property Name="fk_Usuario_Id_Cadastro" Type="int" Nullable="false" />
+    <Property Name="fk_Banda_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FotoEmpresa">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="varchar" Nullable="false" MaxLength="250" />
+    <Property Name="Descricao" Type="varchar" MaxLength="500" />
+    <Property Name="Caminho" Type="varchar" Nullable="false" MaxLength="250" />
+    <Property Name="DataCadastro" Type="datetime" Nullable="false" />
+    <Property Name="fk_Usuario_Id_Cadastro" Type="int" Nullable="false" />
+    <Property Name="fk_Empresa_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="InstrumentoMusical">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="varchar" Nullable="false" MaxLength="150" />
+    <Property Name="Descricao" Type="text" />
+  </EntityType>
+  <EntityType Name="NoticiaBanda">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="varchar" Nullable="false" MaxLength="250" />
+    <Property Name="Descricao" Type="varchar" Nullable="false" MaxLength="500" />
+    <Property Name="DataCadastro" Type="datetime" Nullable="false" />
+    <Property Name="fk_Usuario_Id_Cadastro" Type="int" Nullable="false" />
+    <Property Name="fk_Banda_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Pais">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="varchar" Nullable="false" MaxLength="150" />
+    <Property Name="Sigla" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="RecadoBanda">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="varchar" Nullable="false" MaxLength="250" />
+    <Property Name="fk_Usuario_Id_Cadastro" Type="int" Nullable="false" />
+    <Property Name="DataCadastro" Type="datetime" Nullable="false" />
+    <Property Name="Ativa" Type="bit" Nullable="false" />
+    <Property Name="fk_Banda_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Rel_EstiloMusical_do_Usuario">
+    <Key>
+      <PropertyRef Name="fk_EstiloMusical_Id" />
+      <PropertyRef Name="fk_Usuario_Id" />
+    </Key>
+    <Property Name="fk_EstiloMusical_Id" Type="int" Nullable="false" />
+    <Property Name="fk_Usuario_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Rel_Fa_da_Banda">
+    <Key>
+      <PropertyRef Name="fk_Banda_Id" />
+      <PropertyRef Name="fk_Usuario_Id_fa" />
+    </Key>
+    <Property Name="fk_Banda_Id" Type="int" Nullable="false" />
+    <Property Name="fk_Usuario_Id_fa" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Rel_InstrumentoMusical_do_Usuario">
+    <Key>
+      <PropertyRef Name="fk_InstrumentoMusical_Id" />
+      <PropertyRef Name="fk_Usuario_Id" />
+    </Key>
+    <Property Name="fk_InstrumentoMusical_Id" Type="int" Nullable="false" />
+    <Property Name="fk_Usuario_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Rel_Integrante_da_Banda">
+    <Key>
+      <PropertyRef Name="fk_Banda_Id" />
+      <PropertyRef Name="fk_Usuario_Id_integrante" />
+    </Key>
+    <Property Name="fk_Banda_Id" Type="int" Nullable="false" />
+    <Property Name="fk_Usuario_Id_integrante" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RespostaNoticiaBanda">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="varchar" Nullable="false" MaxLength="250" />
+    <Property Name="fk_Usuario_Id_Cadastro" Type="int" Nullable="false" />
+    <Property Name="DataCadastro" Type="datetime" Nullable="false" />
+    <Property Name="fk_NoticiaBanda_Id" Type="int" Nullable="false" />
+    <Property Name="Ativa" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Sexo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Sigla" Type="varchar" Nullable="false" MaxLength="5" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TipoEmpresa">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="Descricao" Type="varchar" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="varchar" MaxLength="250" />
+    <Property Name="Email" Type="varchar" Nullable="false" MaxLength="250" />
+    <Property Name="fk_Sexo_Id" Type="int" />
+    <Property Name="DataNascimento" Type="datetime" />
+    <Property Name="Cidade" Type="varchar" MaxLength="150" />
+    <Property Name="fk_Estado_Id" Type="int" />
+    <Property Name="fk_Pais_Id" Type="int" Nullable="false" />
+    <Property Name="Celular" Type="varchar" MaxLength="20" />
+    <Property Name="Senha" Type="varchar" MaxLength="20" />
+    <Property Name="Administrativo" Type="bit" Nullable="false" />
+    <Property Name="DataCadastro" Type="datetime" Nullable="false" />
+    <Property Name="Ativo" Type="bit" Nullable="false" />
+    <Property Name="Descricao" Type="text" />
+  </EntityType>
+  <EntityType Name="VideoBanda">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="varchar" Nullable="false" MaxLength="250" />
+    <Property Name="URL" Type="varchar" Nullable="false" MaxLength="300" />
+    <Property Name="DataCadastro" Type="datetime" Nullable="false" />
+    <Property Name="fk_Usuario_Id_Cadastro" Type="int" Nullable="false" />
+    <Property Name="fk_Banda_Id" Type="int" Nullable="false" />
+    <Property Name="Descricao" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <Association Name="FK_Banda_Empresa">
+    <End Role="Empresa" Type="xaduxModel.Store.Empresa" Multiplicity="0..1" />
+    <End Role="Banda" Type="xaduxModel.Store.Banda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Empresa">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Banda">
+        <PropertyRef Name="fk_Empresa_Id_Gravadora" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Banda_EstiloMusical">
+    <End Role="EstiloMusical" Type="xaduxModel.Store.EstiloMusical" Multiplicity="1" />
+    <End Role="Banda" Type="xaduxModel.Store.Banda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EstiloMusical">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Banda">
+        <PropertyRef Name="fk_EstiloMusical_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Banda_Usuario">
+    <End Role="Usuario" Type="xaduxModel.Store.Usuario" Multiplicity="1" />
+    <End Role="Banda" Type="xaduxModel.Store.Banda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Banda">
+        <PropertyRef Name="fk_Usuario_Id_Cadastro" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Empresa_Estado">
+    <End Role="Estado" Type="xaduxModel.Store.Estado" Multiplicity="0..1" />
+    <End Role="Empresa" Type="xaduxModel.Store.Empresa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Estado">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Empresa">
+        <PropertyRef Name="fk_Estado_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Empresa_Pais">
+    <End Role="Pais" Type="xaduxModel.Store.Pais" Multiplicity="1" />
+    <End Role="Empresa" Type="xaduxModel.Store.Empresa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pais">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Empresa">
+        <PropertyRef Name="fk_Pais_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Empresa_TipoEmpresa">
+    <End Role="TipoEmpresa" Type="xaduxModel.Store.TipoEmpresa" Multiplicity="1" />
+    <End Role="Empresa" Type="xaduxModel.Store.Empresa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TipoEmpresa">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Empresa">
+        <PropertyRef Name="fk_TipoEmpresa_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Empresa_Usuario">
+    <End Role="Usuario" Type="xaduxModel.Store.Usuario" Multiplicity="0..1" />
+    <End Role="Empresa" Type="xaduxModel.Store.Empresa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Empresa">
+        <PropertyRef Name="fk_Usuario_Id_Responsavel" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Evento_Banda">
+    <End Role="Banda" Type="xaduxModel.Store.Banda" Multiplicity="1" />
+    <End Role="Evento" Type="xaduxModel.Store.Evento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Banda">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Evento">
+        <PropertyRef Name="fk_Banda_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Evento_Empresa">
+    <End Role="Empresa" Type="xaduxModel.Store.Empresa" Multiplicity="0..1" />
+    <End Role="Evento" Type="xaduxModel.Store.Evento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Empresa">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Evento">
+        <PropertyRef Name="fk_Empresa_Id_CasaShow" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Evento_Usuario">
+    <End Role="Usuario" Type="xaduxModel.Store.Usuario" Multiplicity="1" />
+    <End Role="Evento" Type="xaduxModel.Store.Evento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Evento">
+        <PropertyRef Name="fk_Usuario_Id_Cadastro" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FotoBanda_Banda">
+    <End Role="Banda" Type="xaduxModel.Store.Banda" Multiplicity="1" />
+    <End Role="FotoBanda" Type="xaduxModel.Store.FotoBanda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Banda">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FotoBanda">
+        <PropertyRef Name="fk_Banda_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FotoBanda_Usuario">
+    <End Role="Usuario" Type="xaduxModel.Store.Usuario" Multiplicity="1" />
+    <End Role="FotoBanda" Type="xaduxModel.Store.FotoBanda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FotoBanda">
+        <PropertyRef Name="fk_Usuario_Id_Cadastro" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FotoEmpresa_Empresa">
+    <End Role="Empresa" Type="xaduxModel.Store.Empresa" Multiplicity="1" />
+    <End Role="FotoEmpresa" Type="xaduxModel.Store.FotoEmpresa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Empresa">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FotoEmpresa">
+        <PropertyRef Name="fk_Empresa_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FotoEmpresa_Usuario">
+    <End Role="Usuario" Type="xaduxModel.Store.Usuario" Multiplicity="1" />
+    <End Role="FotoEmpresa" Type="xaduxModel.Store.FotoEmpresa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FotoEmpresa">
+        <PropertyRef Name="fk_Usuario_Id_Cadastro" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NoticiaBanda_Banda">
+    <End Role="Banda" Type="xaduxModel.Store.Banda" Multiplicity="1" />
+    <End Role="NoticiaBanda" Type="xaduxModel.Store.NoticiaBanda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Banda">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="NoticiaBanda">
+        <PropertyRef Name="fk_Banda_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NoticiaBanda_Usuario">
+    <End Role="Usuario" Type="xaduxModel.Store.Usuario" Multiplicity="1" />
+    <End Role="NoticiaBanda" Type="xaduxModel.Store.NoticiaBanda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="NoticiaBanda">
+        <PropertyRef Name="fk_Usuario_Id_Cadastro" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RecadoBanda_Banda">
+    <End Role="Banda" Type="xaduxModel.Store.Banda" Multiplicity="1" />
+    <End Role="RecadoBanda" Type="xaduxModel.Store.RecadoBanda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Banda">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="RecadoBanda">
+        <PropertyRef Name="fk_Banda_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RecadoBanda_Usuario">
+    <End Role="Usuario" Type="xaduxModel.Store.Usuario" Multiplicity="1" />
+    <End Role="RecadoBanda" Type="xaduxModel.Store.RecadoBanda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="RecadoBanda">
+        <PropertyRef Name="fk_Usuario_Id_Cadastro" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Rel_EstiloMusical_do_Usuario_EstiloMusical">
+    <End Role="EstiloMusical" Type="xaduxModel.Store.EstiloMusical" Multiplicity="1" />
+    <End Role="Rel_EstiloMusical_do_Usuario" Type="xaduxModel.Store.Rel_EstiloMusical_do_Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EstiloMusical">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Rel_EstiloMusical_do_Usuario">
+        <PropertyRef Name="fk_EstiloMusical_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Rel_EstiloMusical_do_Usuario_Usuario">
+    <End Role="Usuario" Type="xaduxModel.Store.Usuario" Multiplicity="1" />
+    <End Role="Rel_EstiloMusical_do_Usuario" Type="xaduxModel.Store.Rel_EstiloMusical_do_Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Rel_EstiloMusical_do_Usuario">
+        <PropertyRef Name="fk_Usuario_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Rel_Fa_da_Banda_Banda">
+    <End Role="Banda" Type="xaduxModel.Store.Banda" Multiplicity="1" />
+    <End Role="Rel_Fa_da_Banda" Type="xaduxModel.Store.Rel_Fa_da_Banda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Banda">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Rel_Fa_da_Banda">
+        <PropertyRef Name="fk_Banda_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Rel_Fa_da_Banda_Usuario">
+    <End Role="Usuario" Type="xaduxModel.Store.Usuario" Multiplicity="1" />
+    <End Role="Rel_Fa_da_Banda" Type="xaduxModel.Store.Rel_Fa_da_Banda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Rel_Fa_da_Banda">
+        <PropertyRef Name="fk_Usuario_Id_fa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Rel_InstrumentoMusical_do_Usuario_InstrumentoMusical">
+    <End Role="InstrumentoMusical" Type="xaduxModel.Store.InstrumentoMusical" Multiplicity="1" />
+    <End Role="Rel_InstrumentoMusical_do_Usuario" Type="xaduxModel.Store.Rel_InstrumentoMusical_do_Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InstrumentoMusical">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Rel_InstrumentoMusical_do_Usuario">
+        <PropertyRef Name="fk_InstrumentoMusical_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Rel_InstrumentoMusical_do_Usuario_Usuario">
+    <End Role="Usuario" Type="xaduxModel.Store.Usuario" Multiplicity="1" />
+    <End Role="Rel_InstrumentoMusical_do_Usuario" Type="xaduxModel.Store.Rel_InstrumentoMusical_do_Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Rel_InstrumentoMusical_do_Usuario">
+        <PropertyRef Name="fk_Usuario_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Rel_Integrante_da_Banda_Banda">
+    <End Role="Banda" Type="xaduxModel.Store.Banda" Multiplicity="1" />
+    <End Role="Rel_Integrante_da_Banda" Type="xaduxModel.Store.Rel_Integrante_da_Banda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Banda">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Rel_Integrante_da_Banda">
+        <PropertyRef Name="fk_Banda_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Rel_Integrante_da_Banda_Usuario">
+    <End Role="Usuario" Type="xaduxModel.Store.Usuario" Multiplicity="1" />
+    <End Role="Rel_Integrante_da_Banda" Type="xaduxModel.Store.Rel_Integrante_da_Banda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Rel_Integrante_da_Banda">
+        <PropertyRef Name="fk_Usuario_Id_integrante" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RespostaNoticiaBanda_NoticiaBanda">
+    <End Role="NoticiaBanda" Type="xaduxModel.Store.NoticiaBanda" Multiplicity="1" />
+    <End Role="RespostaNoticiaBanda" Type="xaduxModel.Store.RespostaNoticiaBanda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NoticiaBanda">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="RespostaNoticiaBanda">
+        <PropertyRef Name="fk_NoticiaBanda_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RespostaNoticiaBanda_Usuario">
+    <End Role="Usuario" Type="xaduxModel.Store.Usuario" Multiplicity="1" />
+    <End Role="RespostaNoticiaBanda" Type="xaduxModel.Store.RespostaNoticiaBanda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="RespostaNoticiaBanda">
+        <PropertyRef Name="fk_Usuario_Id_Cadastro" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Usuario_Estado">
+    <End Role="Estado" Type="xaduxModel.Store.Estado" Multiplicity="0..1" />
+    <End Role="Usuario" Type="xaduxModel.Store.Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Estado">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Usuario">
+        <PropertyRef Name="fk_Estado_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Usuario_Pais">
+    <End Role="Pais" Type="xaduxModel.Store.Pais" Multiplicity="1" />
+    <End Role="Usuario" Type="xaduxModel.Store.Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pais">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Usuario">
+        <PropertyRef Name="fk_Pais_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Usuario_Sexo">
+    <End Role="Sexo" Type="xaduxModel.Store.Sexo" Multiplicity="0..1" />
+    <End Role="Usuario" Type="xaduxModel.Store.Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sexo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Usuario">
+        <PropertyRef Name="fk_Sexo_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VideoBanda_Banda">
+    <End Role="Banda" Type="xaduxModel.Store.Banda" Multiplicity="1" />
+    <End Role="VideoBanda" Type="xaduxModel.Store.VideoBanda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Banda">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="VideoBanda">
+        <PropertyRef Name="fk_Banda_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VideoBanda_Usuario">
+    <End Role="Usuario" Type="xaduxModel.Store.Usuario" Multiplicity="1" />
+    <End Role="VideoBanda" Type="xaduxModel.Store.VideoBanda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="VideoBanda">
+        <PropertyRef Name="fk_Usuario_Id_Cadastro" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

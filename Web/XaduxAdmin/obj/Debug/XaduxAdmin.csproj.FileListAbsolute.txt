@@ -1,0 +1,56 @@
+C:\Users\DaniloBSi\Documents\Projetos\Xadux\Web\XaduxAdmin\bin\XaduxAdmin.dll
+C:\Users\DaniloBSi\Documents\Projetos\Xadux\Web\XaduxAdmin\bin\XaduxAdmin.pdb
+C:\Users\DaniloBSi\Documents\Projetos\Xadux\Web\XaduxAdmin\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\DaniloBSi\Documents\Projetos\Xadux\Web\XaduxAdmin\obj\Debug\XaduxAdmin.dll
+C:\Users\DaniloBSi\Documents\Projetos\Xadux\Web\XaduxAdmin\obj\Debug\XaduxAdmin.pdb
+C:\Users\DaniloBSi\Documents\Projetos\Xadux\Web\XaduxAdmin\bin\XaduxClassLibrary.dll
+C:\Users\DaniloBSi\Documents\Projetos\Xadux\Web\XaduxAdmin\bin\XaduxClassLibrary.pdb
+C:\Users\danilo.silva\Dropbox\Projects\Xadux\Web\XaduxAdmin\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\danilo.silva\Dropbox\Projects\Xadux\Web\XaduxAdmin\obj\Debug\XaduxAdmin.dll
+C:\Users\danilo.silva\Dropbox\Projects\Xadux\Web\XaduxAdmin\bin\XaduxAdmin.dll
+C:\Users\danilo.silva\Dropbox\Projects\Xadux\Web\XaduxAdmin\bin\XaduxAdmin.pdb
+C:\Users\danilo.silva\Dropbox\Projects\Xadux\Web\XaduxAdmin\bin\XaduxClassLibrary.dll
+C:\Users\danilo.silva\Dropbox\Projects\Xadux\Web\XaduxAdmin\bin\XaduxClassLibrary.pdb
+C:\Users\danilo.silva\Dropbox\Projects\Xadux\Web\XaduxAdmin\obj\Debug\XaduxAdmin.pdb
+C:\Users\Alexandre\Dropbox\Xadux\Web\XaduxAdmin\bin\XaduxAdmin.dll
+C:\Users\Alexandre\Dropbox\Xadux\Web\XaduxAdmin\bin\XaduxAdmin.pdb
+C:\Users\Alexandre\Dropbox\Xadux\Web\XaduxAdmin\bin\XaduxClassLibrary.dll
+C:\Users\Alexandre\Dropbox\Xadux\Web\XaduxAdmin\bin\XaduxClassLibrary.pdb
+C:\Users\Alexandre\Dropbox\Xadux\Web\XaduxAdmin\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alexandre\Dropbox\Xadux\Web\XaduxAdmin\obj\Debug\XaduxAdmin.dll
+C:\Users\Alexandre\Dropbox\Xadux\Web\XaduxAdmin\obj\Debug\XaduxAdmin.pdb
+C:\Users\DaniloBSi\Dropbox\Projects\Xadux\Web\XaduxAdmin\bin\XaduxAdmin.dll
+C:\Users\DaniloBSi\Dropbox\Projects\Xadux\Web\XaduxAdmin\bin\XaduxAdmin.pdb
+C:\Users\DaniloBSi\Dropbox\Projects\Xadux\Web\XaduxAdmin\bin\XaduxClassLibrary.dll
+C:\Users\DaniloBSi\Dropbox\Projects\Xadux\Web\XaduxAdmin\bin\XaduxClassLibrary.pdb
+C:\Users\DaniloBSi\Dropbox\Projects\Xadux\Web\XaduxAdmin\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\DaniloBSi\Dropbox\Projects\Xadux\Web\XaduxAdmin\obj\Debug\XaduxAdmin.dll
+C:\Users\DaniloBSi\Dropbox\Projects\Xadux\Web\XaduxAdmin\obj\Debug\XaduxAdmin.pdb
+C:\Documents and Settings\NotebookCompaq\My Documents\Dropbox\Xadux\Web\XaduxAdmin\bin\XaduxAdmin.dll
+C:\Documents and Settings\NotebookCompaq\My Documents\Dropbox\Xadux\Web\XaduxAdmin\bin\XaduxAdmin.pdb
+C:\Documents and Settings\NotebookCompaq\My Documents\Dropbox\Xadux\Web\XaduxAdmin\bin\XaduxClassLibrary.dll
+C:\Documents and Settings\NotebookCompaq\My Documents\Dropbox\Xadux\Web\XaduxAdmin\bin\XaduxClassLibrary.pdb
+C:\Documents and Settings\NotebookCompaq\My Documents\Dropbox\Xadux\Web\XaduxAdmin\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\NotebookCompaq\My Documents\Dropbox\Xadux\Web\XaduxAdmin\obj\Debug\XaduxAdmin.dll
+C:\Documents and Settings\NotebookCompaq\My Documents\Dropbox\Xadux\Web\XaduxAdmin\obj\Debug\XaduxAdmin.pdb
+C:\Users\aagcamargo\Dropbox\Xadux\Web\XaduxAdmin\bin\XaduxAdmin.dll
+C:\Users\aagcamargo\Dropbox\Xadux\Web\XaduxAdmin\bin\XaduxAdmin.pdb
+C:\Users\aagcamargo\Dropbox\Xadux\Web\XaduxAdmin\bin\XaduxClassLibrary.dll
+C:\Users\aagcamargo\Dropbox\Xadux\Web\XaduxAdmin\bin\XaduxClassLibrary.pdb
+C:\Users\aagcamargo\Dropbox\Xadux\Web\XaduxAdmin\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\aagcamargo\Dropbox\Xadux\Web\XaduxAdmin\obj\Debug\XaduxAdmin.dll
+C:\Users\aagcamargo\Dropbox\Xadux\Web\XaduxAdmin\obj\Debug\XaduxAdmin.pdb
+D:\aagcamargo\Dropbox\Xadux\Web\XaduxAdmin\bin\XaduxAdmin.dll
+D:\aagcamargo\Dropbox\Xadux\Web\XaduxAdmin\bin\XaduxAdmin.pdb
+D:\aagcamargo\Dropbox\Xadux\Web\XaduxAdmin\bin\XaduxClassLibrary.dll
+D:\aagcamargo\Dropbox\Xadux\Web\XaduxAdmin\bin\XaduxClassLibrary.pdb
+D:\aagcamargo\Dropbox\Xadux\Web\XaduxAdmin\obj\Debug\ResolveAssemblyReference.cache
+D:\aagcamargo\Dropbox\Xadux\Web\XaduxAdmin\obj\Debug\XaduxAdmin.dll
+D:\aagcamargo\Dropbox\Xadux\Web\XaduxAdmin\obj\Debug\XaduxAdmin.pdb
+C:\Users\alexandre.camargo\Downloads\Xadux\Web\XaduxAdmin\bin\XaduxAdmin.dll
+C:\Users\alexandre.camargo\Downloads\Xadux\Web\XaduxAdmin\bin\XaduxAdmin.pdb
+C:\Users\alexandre.camargo\Downloads\Xadux\Web\XaduxAdmin\bin\XaduxClassLibrary.dll
+C:\Users\alexandre.camargo\Downloads\Xadux\Web\XaduxAdmin\bin\XaduxClassLibrary.pdb
+C:\Users\alexandre.camargo\Downloads\Xadux\Web\XaduxAdmin\obj\Debug\XaduxAdmin.csprojResolveAssemblyReference.cache
+C:\Users\alexandre.camargo\Downloads\Xadux\Web\XaduxAdmin\obj\Debug\XaduxAdmin.dll
+C:\Users\alexandre.camargo\Downloads\Xadux\Web\XaduxAdmin\obj\Debug\XaduxAdmin.pdb
